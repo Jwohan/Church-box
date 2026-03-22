@@ -49,7 +49,7 @@ st.markdown("""
         border-radius: 10px;  
     }  
     </style>  
-    """, unsafe_base64=True)  
+    """, unsafe_allow_html=True)  
   
 # 카테고리 설정  
 categories = ["신앙 상담", "친목/활동 아이디어", "간식/식사 건의", "기타 의견"]  
